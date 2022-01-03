@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: whitesmoke;
+}
+
+.container{
+  margin: 30px auto;
+  padding: 30px ;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: wheat;
+}
+h1{
+  font-family: cursive;
+  color: brown;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 10px 10px;
+  outline: none;
+  width: 50%;
+  border: none;
+  font-family: "Cambria";
+  font-size: 15px;
+}
+.btn-add {
+  padding: 10px 15px;
+  border: none;
+  color: whitesmoke;
+  font-family: fantasy;
+  font-size: 15px;
+  background-color: teal;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+color: #e31746;
+}
+.empty{
+  margin-top: 20px;
+  color: teal;
+  font-weight: bold;
+  font-size: 15px;
+}
+.li-container {
+
+  width: 100%;
+  color: darkslategray;
+  margin-top: 20px;
+}
+ul{
+  padding: 0;
+}
+li {
+  list-style: none;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+
+}
+
+li p {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+.btn-delete {
+  margin-left: auto;
+  border: none;
+  background-color: #e31746;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 15px;
+}
+
+.btn-delete:hover {
+background: whitesmoke;
+color: #e31746;
+}
+/*
+RESPONSIVE
+*/
+@media  screen and (max-width:900px) {
+  .container{
+    width: 60%;
+  }
+}
+@media  screen and (max-width:620px) {
+  .container{
+    width: 80%;
+  }
+  input{
+    width: 70%;
+  }
+}
+@media  screen and (max-width:420px) {
+  .container{
+    width: 90%;
+  }
+input{
+  width: 80%;
+}
+.btn-delete{
+  width: 20%;
+  font-size: 12px;
+}
+}
