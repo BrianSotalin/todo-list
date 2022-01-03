@@ -41,6 +41,7 @@ input {
   border: none;
   font-family: "Cambria";
   font-size: 15px;
+  font-weight: bolder;
 }
 .btn-add {
   padding: 10px 15px;
