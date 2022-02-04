@@ -170,30 +170,22 @@ color: #e31746;
 FOOTER
 */
 footer{
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: center;
+  font-size: 14px;
+  color: darkcyan;
+  transition: .3s ease all;
   }
-  footer p{
-    font-size: 15px;
-    font-weight: bold;
-    color: darkslategrey;
-  }
-  footer .social{
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  footer:hover{
+    letter-spacing: 2px;
   }
   footer a{
-    margin: 30px ;
-   padding: 30px;
-    color: black;
-    font-size: 30px;
-    transition: .3s ease all;
-  
+    color: rgb(55, 55, 56);
+    text-decoration: none;
+    text-transform: uppercase;
   }
-  footer a:hover{
-    color: darkslategrey;
-  }
+ 
+ 
 /*
 MODO OSCURO
 */
